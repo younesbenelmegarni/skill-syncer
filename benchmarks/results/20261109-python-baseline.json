@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "fixture": "skills-100",
+      "skills": 100,
+      "home": "/Users/macbook/Developer/dev-projects/skill-syncer/benchmarks/fixtures/skills-100",
+      "hyperfine": {
+        "note": "hyperfine not installed"
+      }
+    },
+    {
+      "fixture": "skills-1000",
+      "skills": 1000,
+      "home": "/Users/macbook/Developer/dev-projects/skill-syncer/benchmarks/fixtures/skills-1000",
+      "hyperfine": {
+        "note": "hyperfine not installed"
+      }
+    }
+  ],
+  "environment": {
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.7",
+    "cli": "/Users/macbook/Developer/dev-projects/skill-syncer/skill-sync"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "skills": {
+    "sample": {
+      "agents": "canonical",
+      "cursor": "missing",
+      "claude": "missing"
+    }
+  },
+  "actions": [
+    {
+      "op": "link",
+      "slug": "sample",
+      "path": "/var/folders/8p/_pdk93fj20n2fkbdw8gzq0k00000gn/T/skill-sync-golden-9d5948tn/.cursor/skills/sample",
+      "source": "/var/folders/8p/_pdk93fj20n2fkbdw8gzq0k00000gn/T/skill-sync-golden-9d5948tn/.agents/skills/sample",
+      "digest": null,
+      "before": {
+        "kind": "missing"
+      },
+      "plugin": null
+    },
+    {
+      "op": "link",
+      "slug": "sample",
+      "path": "/var/folders/8p/_pdk93fj20n2fkbdw8gzq0k00000gn/T/skill-sync-golden-9d5948tn/.claude/skills/sample",
+      "source": "/var/folders/8p/_pdk93fj20n2fkbdw8gzq0k00000gn/T/skill-sync-golden-9d5948tn/.agents/skills/sample",
+      "digest": null,
+      "before": {
+        "kind": "missing"
+      },
+      "plugin": null
+    }
+  ],
+  "conflicts": {}
+}

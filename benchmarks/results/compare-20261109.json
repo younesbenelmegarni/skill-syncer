@@ -1,0 +1,26 @@
+[
+  {
+    "fixture": "skills-100",
+    "command": "python-dry-run",
+    "median_ms": 781.2443329967209,
+    "runs": 5
+  },
+  {
+    "fixture": "skills-100",
+    "command": "rust-dry-run",
+    "median_ms": 616.1757920053788,
+    "runs": 5
+  },
+  {
+    "fixture": "skills-1000",
+    "command": "python-dry-run",
+    "median_ms": 7528.0136250003125,
+    "runs": 5
+  },
+  {
+    "fixture": "skills-1000",
+    "command": "rust-dry-run",
+    "median_ms": 4548.046625001007,
+    "runs": 5
+  }
+]

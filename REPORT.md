@@ -1,0 +1,801 @@
+# Initial skill-sync result
+
+Tool: ~/Developer/dev-projects/skill-syncer/skill-sync
+Command: skill-sync
+Canonical store: ~/.agents/skills
+
+15 tests passed. 498 safe skill names verified across 30 roots (14,940 paths).
+45 imports; 13,923 link actions. Second plan: 0 actions.
+131 blocked skill names (99 differing versions, 33 occupied/broken paths; one overlaps).
+66 pre-existing broken symlinks left alone. 1,221 conflict/managed/broken paths verified unchanged.
+34 app-managed entries excluded, plus Cursor skills-cursor and project-only sources.
+Whole iOS skill linked to all 29 noncanonical roots, including 4 references and CHANGELOG.md.
+
+## Detected roots
+- agents: /Users/macbook/.agents/skills
+- cursor: /Users/macbook/.cursor/skills
+- claude: /Users/macbook/.claude/skills
+- codex: /Users/macbook/.codex/skills
+- gemini: /Users/macbook/.gemini/skills
+- antigravity: /Users/macbook/.gemini/antigravity/skills
+- copilot: /Users/macbook/.copilot/skills
+- opencode: /Users/macbook/.config/opencode/skills
+- factory: /Users/macbook/.factory/skills
+- hermes: /Users/macbook/.hermes/skills
+- grok: /Users/macbook/.grok/skills
+- kilo: /Users/macbook/.kilocode/skills
+- qwen: /Users/macbook/.qwen/skills
+- kiro: /Users/macbook/.kiro/skills
+- pi: /Users/macbook/.pi/agent/skills
+- goose: /Users/macbook/.config/goose/skills
+- amp: /Users/macbook/.config/amp/skills
+- trae-cn: /Users/macbook/.trae-cn/skills
+- codemaker: /Users/macbook/.codemaker/skills
+- trae: /Users/macbook/.trae/skills
+- codestudio: /Users/macbook/.codestudio/skills
+- roo: /Users/macbook/.roo/skills
+- zencoder: /Users/macbook/.zencoder/skills
+- codeartsdoer: /Users/macbook/.codeartsdoer/skills
+- commandcode: /Users/macbook/.commandcode/skills
+- agent: /Users/macbook/.agent/skills
+- codebuddy: /Users/macbook/.codebuddy/skills
+- zcode: /Users/macbook/.zcode/skills
+- opencode-legacy: /Users/macbook/.config/opencode/skill
+- opencode-home: /Users/macbook/.opencode/skills
+
+Shared consumers: Kimi, Warp.
+
+## Preserved backups
+/Users/macbook/.local/state/skill-sync/backups/20261109-004604-cfa598d4
+
+## Skills imported into the canonical store
+- activity
+- add-app-clip
+- benchmark-checklist
+- bro
+- building-native-ui
+- caveman
+- caveman-compress
+- check-work
+- correct
+- docx
+- e2e
+- expo-api-routes
+- expo-cicd-workflows
+- expo-deployment
+- expo-observe
+- expo-ui-jetpack-compose
+- expo-ui-swiftui
+- flowdeck
+- goat-agent-protocol
+- graphify
+- imagine
+- in-your-own-words
+- isr
+- ketchup
+- maintain-verification-skill
+- make-bot-ui
+- native-data-fetching
+- next-browser
+- partial-prefetching
+- poteto-help
+- pptx
+- principle-boundary-discipline
+- principle-experience-first
+- principle-explain-the-number
+- principle-foundational-thinking
+- principle-outcome-oriented-execution
+- principle-prove-it-works
+- principle-separate-before-serializing-shared-state
+- principle-sequence-verifiable-units
+- setup-pstack
+- sharpen
+- tldraw-offline
+- upgrading-expo
+- use-dom
+- xlsx
+
+## Skills found and outcome
+- account-handover: linked across all detected roots
+- activity: linked across all detected roots
+- adapt: linked across all detected roots
+- adaptive-metrics: linked across all detected roots
+- add-adapter: linked across all detected roots
+- add-app-clip: linked across all detected roots
+- admin: linked across all detected roots
+- admission-control: linked across all detected roots
+- agent-sdk-create-agent: linked across all detected roots
+- ai-seo: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- ai-slop-cleaner: linked across all detected roots
+- alerting-irm: linked across all detected roots
+- alloy: linked across all detected roots
+- analyzing-experiment-session-replays: linked across all detected roots
+- animate: BLOCKED — different whole-folder contents: agents, claude, antigravity, agent
+- animate-expo: linked across all detected roots
+- animation-vocabulary: linked across all detected roots
+- app-icon: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- app-observability: linked across all detected roots
+- app-sdk-concepts: linked across all detected roots
+- apple-design: linked across all detected roots
+- apple-liquid-glass-figma-canvas: linked across all detected roots
+- appllama-app-design-skill: linked across all detected roots
+- appllama-usage: linked across all detected roots
+- archify: linked across all detected roots
+- architect: BLOCKED — different whole-folder contents: antigravity, opencode
+- arcjet: linked across all detected roots
+- arena: BLOCKED — different whole-folder contents: antigravity, opencode
+- argent-android-emulator-setup: linked across all detected roots
+- argent-create-flow: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-device-interact: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-ios-device-interact: linked across all detected roots
+- argent-ios-device-setup: linked across all detected roots
+- argent-ios-simulator-setup: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-lens: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-metro-debugger: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-native-profiler: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-qa-flows: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-react-native-app-workflow: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-react-native-optimization: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-react-native-profiler: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-screen-recording: linked across all detected roots
+- argent-screenshot-diff: linked across all detected roots
+- argent-settings-permissions: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-test-ui-flow: BLOCKED — different whole-folder contents: agents, claude, gemini, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- argent-tv-interact: linked across all detected roots
+- arrange: linked across all detected roots
+- aside-browser: linked across all detected roots
+- ask-claude: BLOCKED — different whole-folder contents: agents, claude, agent
+- ask-gemini: linked across all detected roots
+- ask-matt: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- ask-sonner: linked across all detected roots
+- assessing-heatmaps: linked across all detected roots
+- assistant-mcp: linked across all detected roots
+- atlas: linked across all detected roots
+- audit: linked across all detected roots
+- audit-and-reduce-dependencies: linked across all detected roots
+- auditing-endpoints: linked across all detected roots
+- auditing-experiments-flags: linked across all detected roots
+- auditing-warehouse-data-health: linked across all detected roots
+- aurrora: linked across all detected roots
+- authoring-log-alerts: linked across all detected roots
+- authoring-signals-scouts: linked across all detected roots
+- automate: linked across all detected roots
+- automate-me: BLOCKED — different whole-folder contents: antigravity, opencode
+- autopilot: linked across all detected roots
+- awwwards-animations: linked across all detected roots
+- benchmark-checklist: linked across all detected roots
+- benchmark-fp-fn-audit: linked across all detected roots
+- better-accessibility: linked across all detected roots
+- better-auth-best-practices: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- better-auth-security-best-practices: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- better-colors: linked across all detected roots
+- better-interface: linked across all detected roots
+- better-layout: linked across all detected roots
+- better-typography: linked across all detected roots
+- better-ui: linked across all detected roots
+- better-writing: linked across all detected roots
+- beyla: linked across all detected roots
+- blast-radius: BLOCKED — different whole-folder contents: antigravity, opencode
+- bolder: linked across all detected roots
+- break: linked across all detected roots
+- bro: linked across all detected roots
+- browser-automation: linked across all detected roots
+- building-native-ui: linked across all detected roots
+- bun-cloudflare-workers: linked across all detected roots
+- bun-runtime: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- bun-test: linked across all detected roots
+- bun-websocket-server: linked across all detected roots
+- cancel: linked across all detected roots
+- canvas: linked across all detected roots
+- caveman: linked across all detected roots
+- caveman-commit: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- caveman-compress: linked across all detected roots
+- caveman-review: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- chat-sdk: BLOCKED — different whole-folder contents: agents, claude, antigravity, agent
+- chatgpt-apps: linked across all detected roots
+- check-npm: linked across all detected roots
+- check-work: linked across all detected roots
+- chrome-devtools-cli: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- clarify: linked across all detected roots
+- clean-code: linked across all detected roots
+- cleaning-up-stale-feature-flags: linked across all detected roots
+- cloud-integrations: linked across all detected roots
+- cloudflare-deploy: linked across all detected roots
+- code-review: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- code-review-imported: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- codebase-design: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- colorize: linked across all detected roots
+- configure-notifications: linked across all detected roots
+- configuring-experiment-analytics: linked across all detected roots
+- configuring-experiment-rollout: linked across all detected roots
+- consuming-endpoints-from-client-code: linked across all detected roots
+- controlling-mobile-devices: linked across all detected roots
+- convert-documents-to-markdown: linked across all detected roots
+- copying-flags-across-projects: linked across all detected roots
+- core-web-vitals: linked across all detected roots
+- correct: linked across all detected roots
+- cost-management: linked across all detected roots
+- create-auth-skill: linked across all detected roots
+- create-hook: linked across all detected roots
+- create-rule: linked across all detected roots
+- create-skill: BLOCKED — different whole-folder contents: agents, agent
+- create-subagent: linked across all detected roots
+- create-verification-skill: BLOCKED — different whole-folder contents: antigravity, opencode
+- creating-ai-subscription: linked across all detected roots
+- creating-an-endpoint: linked across all detected roots
+- creating-experiments: linked across all detected roots
+- creating-replay-vision-scanners: linked across all detected roots
+- critique: linked across all detected roots
+- cue-kind-definition: linked across all detected roots
+- cv-builder: linked across all detected roots
+- dashboarding: linked across all detected roots
+- database-observability: linked across all detected roots
+- datasources-provisioning: linked across all detected roots
+- debug-optimize-lcp: linked across all detected roots
+- debugging-local-replay: linked across all detected roots
+- debugging-signals-pipeline: linked across all detected roots
+- deep-interview: linked across all detected roots
+- delight: linked across all detected roots
+- deploy-with-vercel: linked across all detected roots
+- designing-email-templates: linked across all detected roots
+- deslop: linked across all detected roots
+- develop-web-game: linked across all detected roots
+- diagnosing-bugs: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- diagnosing-ci-and-merge-bottlenecks: linked across all detected roots
+- diagnosing-endpoint-performance: linked across all detected roots
+- diagnosing-experiment-results: linked across all detected roots
+- diagnosing-failed-warehouse-syncs: linked across all detected roots
+- diagnosing-missing-recordings: linked across all detected roots
+- diagnosing-sdk-health: linked across all detected roots
+- diagnosing-stacktrace-symbolication: linked across all detected roots
+- diffs: linked across all detected roots
+- distill: linked across all detected roots
+- doc: linked across all detected roots
+- doctor: linked across all detected roots
+- docx: linked across all detected roots
+- domain-modeling: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- downloading-batch-export-files: linked across all detected roots
+- dpm-finder: linked across all detected roots
+- drizzle-orm: BLOCKED — different whole-folder contents: agents, claude, antigravity, agent
+- e2e: linked across all detected roots
+- eas-app-stores: linked across all detected roots
+- eas-hosting: linked across all detected roots
+- eas-observe: linked across all detected roots
+- eas-simulator: linked across all detected roots
+- eas-update-insights: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- eas-workflows: linked across all detected roots
+- effect-ts: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- effect-v3-to-v4: linked across all detected roots
+- electrobun-best-practices: linked across all detected roots
+- electron-react-desktop: BLOCKED — different whole-folder contents: agents, codex
+- email-and-password-best-practices: linked across all detected roots
+- email-smtp-send: linked across all detected roots
+- emil-design-eng: linked across all detected roots
+- experiment-audit: linked across all detected roots
+- explain-code: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- explain-interface: linked across all detected roots
+- exploring-apm-traces: linked across all detected roots
+- exploring-autocapture-events: linked across all detected roots
+- exploring-endpoint-execution-logs: linked across all detected roots
+- exploring-live-traffic: linked across all detected roots
+- exploring-llm-clusters: linked across all detected roots
+- exploring-llm-costs: linked across all detected roots
+- exploring-llm-evaluations: linked across all detected roots
+- exploring-llm-traces: linked across all detected roots
+- exploring-signals-scouts: linked across all detected roots
+- expo-animation: linked across all detected roots
+- expo-api-routes: linked across all detected roots
+- expo-app-clip: linked across all detected roots
+- expo-architecture: linked across all detected roots
+- expo-brownfield: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- expo-cicd-workflows: linked across all detected roots
+- expo-data-fetching: linked across all detected roots
+- expo-deployment: linked across all detected roots
+- expo-design-system: linked across all detected roots
+- expo-dev-client: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- expo-dom: linked across all detected roots
+- expo-examples: linked across all detected roots
+- expo-liquid-glass-uniwind: linked across all detected roots
+- expo-migrate-module: linked across all detected roots
+- expo-module: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- expo-native-ui: linked across all detected roots
+- expo-observe: linked across all detected roots
+- expo-project-structure: linked across all detected roots
+- expo-router: linked across all detected roots
+- expo-skill-eval: linked across all detected roots
+- expo-skill-feedback: linked across all detected roots
+- expo-tailwind-setup: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- expo-ui: linked across all detected roots
+- expo-ui-jetpack-compose: linked across all detected roots
+- expo-ui-swiftui: linked across all detected roots
+- expo-upgrade: linked across all detected roots
+- expo-web-to-native: linked across all detected roots
+- extract: linked across all detected roots
+- feature-usage-feed: linked across all detected roots
+- figma: linked across all detected roots
+- figma-code-connect-components: linked across all detected roots
+- figma-create-design-system-rules: BLOCKED — different whole-folder contents: agents, claude, agent
+- figma-create-new-file: linked across all detected roots
+- figma-generate-design: linked across all detected roots
+- figma-generate-library: linked across all detected roots
+- figma-implement-design: linked across all detected roots
+- figma-use: linked across all detected roots
+- figure-it-out: BLOCKED — different whole-folder contents: antigravity, opencode
+- find-animation-opportunities: linked across all detected roots
+- find-similar-functions: linked across all detected roots
+- find-skills: BLOCKED — different whole-folder contents: agents, claude, antigravity, pi, agent
+- finding-deleted-feature-flags: linked across all detected roots
+- finding-experiments: linked across all detected roots
+- finding-replay-for-issue: linked across all detected roots
+- finding-sessions-to-watch: linked across all detected roots
+- fleet-management: linked across all detected roots
+- flowdeck: linked across all detected roots
+- formatting-insight-axes: linked across all detected roots
+- frontend-design: linked across all detected roots
+- frontend-skill: linked across all detected roots
+- fuzz: linked across all detected roots
+- gh-address-comments: linked across all detected roots
+- gh-fix-ci: linked across all detected roots
+- git-commit: linked across all detected roots
+- gitbutler: linked across all detected roots
+- goal: linked across all detected roots
+- goat-agent-protocol: linked across all detected roots
+- grafana-oss: linked across all detected roots
+- grafana-scenes: linked across all detected roots
+- graphify: linked across all detected roots
+- grill-me: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- grill-with-docs: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- grilling: linked across all detected roots
+- grilling-imported: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- grouping-noisy-errors: linked across all detected roots
+- gsap: linked across all detected roots
+- gsap-awwwards-website: linked across all detected roots
+- gsap-core: linked across all detected roots
+- gsap-frameworks: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- gsap-performance: linked across all detected roots
+- gsap-plugins: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- gsap-react: linked across all detected roots
+- gsap-scrolltrigger: linked across all detected roots
+- gsap-timeline: linked across all detected roots
+- gsap-utils: linked across all detected roots
+- handoff: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- harden: linked across all detected roots
+- help: BLOCKED — different whole-folder contents: agents, claude, agent
+- heroui-native: linked across all detected roots
+- hono: linked across all detected roots
+- how: BLOCKED — different whole-folder contents: antigravity, opencode
+- hud: linked across all detected roots
+- imagegen: linked across all detected roots
+- imagine: linked across all detected roots
+- impeccable: BLOCKED — different whole-folder contents: agents, cursor, gemini
+- implement: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- improve-animations: linked across all detected roots
+- improve-codebase-architecture: linked across all detected roots
+- improve-codebase-architecture-imported: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- improve-react: linked across all detected roots
+- improve-threejs: linked across all detected roots
+- in-your-own-words: linked across all detected roots
+- inbox-exploration: linked across all detected roots
+- infrastructure: linked across all detected roots
+- inngest-agent-evals: linked across all detected roots
+- inngest-agents: linked across all detected roots
+- inngest-api: linked across all detected roots
+- inngest-api-cli: linked across all detected roots
+- inngest-brownfield-audit: linked across all detected roots
+- inngest-cli: linked across all detected roots
+- inngest-durable-functions: linked across all detected roots
+- inngest-events: linked across all detected roots
+- inngest-flow-control: linked across all detected roots
+- inngest-middleware: linked across all detected roots
+- inngest-realtime: linked across all detected roots
+- inngest-setup: BLOCKED — different whole-folder contents: agents, claude, pi, agent
+- inngest-steps: linked across all detected roots
+- inngest-v3-v4-migration: linked across all detected roots
+- instrument-error-tracking: linked across all detected roots
+- instrument-feature-flags: linked across all detected roots
+- instrument-integration: linked across all detected roots
+- instrument-llm-analytics: linked across all detected roots
+- instrument-logs: linked across all detected roots
+- instrument-product-analytics: linked across all detected roots
+- interface-review: linked across all detected roots
+- interrogate: BLOCKED — different whole-folder contents: antigravity, opencode
+- investigate-metric: linked across all detected roots
+- investigating-error-issue: linked across all detected roots
+- investigating-replay: linked across all detected roots
+- ios-ui-ux-engineering: linked across all detected roots
+- ios26-liquid-glass-mobile-design: linked across all detected roots
+- isr: linked across all detected roots
+- jupyter-notebook: linked across all detected roots
+- k6: linked across all detected roots
+- k6-cloud-investigate-test: linked across all detected roots
+- k6-docs: linked across all detected roots
+- k6-manage: linked across all detected roots
+- k6-perf-test-website: linked across all detected roots
+- k6-test-maintenance: linked across all detected roots
+- k6-trend-analysis: linked across all detected roots
+- ketchup: linked across all detected roots
+- landing-page-design: linked across all detected roots
+- linear: linked across all detected roots
+- local-build: linked across all detected roots
+- loki: linked across all detected roots
+- loki-label-analyzer: linked across all detected roots
+- loop: linked across all detected roots
+- loop-me: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- maintain-verification-skill: linked across all detected roots
+- make-bot-ui: linked across all detected roots
+- managing-endpoint-versions: linked across all detected roots
+- managing-experiment-lifecycle: linked across all detected roots
+- managing-path-cleaning-rules: linked across all detected roots
+- managing-subscriptions: linked across all detected roots
+- migrate-nativewind-to-uniwind: BLOCKED — different whole-folder contents: agents, claude, pi, agent
+- migrate-oxfmt: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- migrate-oxlint: linked across all detected roots
+- migrate-radix-to-base: linked across all detected roots
+- migrate-to-shoehorn: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- migrate-to-skills: linked across all detected roots
+- mimir: linked across all detected roots
+- ml-ai: linked across all detected roots
+- mobile-app-ui-design: linked across all detected roots
+- monthly-to-annual: linked across all detected roots
+- native-data-fetching: linked across all detected roots
+- neon-postgres: linked across all detected roots
+- netlify-deploy: linked across all detected roots
+- new-repo: linked across all detected roots
+- next-browser: linked across all detected roots
+- next-cache-components-adoption: linked across all detected roots
+- next-cache-components-optimizer: linked across all detected roots
+- next-dev-loop: linked across all detected roots
+- next-intl-add-language: linked across all detected roots
+- next-partial-prefetching-adoption: linked across all detected roots
+- nextjs-app-architecture: linked across all detected roots
+- nextjs-architecture: linked across all detected roots
+- nextjs-engineering: linked across all detected roots
+- nextjs-performance: linked across all detected roots
+- nextjs-project-patterns: linked across all detected roots
+- nextjs-react-typescript: linked across all detected roots
+- no-comments: BLOCKED — different whole-folder contents: antigravity, opencode
+- normalize: linked across all detected roots
+- note: linked across all detected roots
+- notifications-toasts: linked across all detected roots
+- notion-knowledge-capture: linked across all detected roots
+- notion-meeting-intelligence: linked across all detected roots
+- notion-research-documentation: linked across all detected roots
+- notion-spec-to-implementation: linked across all detected roots
+- nuqs: linked across all detected roots
+- nuqs-codemod-runner: linked across all detected roots
+- nuqs-scaffolder: linked across all detected roots
+- omx-setup: linked across all detected roots
+- onboard: linked across all detected roots
+- oncall-irm: linked across all detected roots
+- open-knowledge-discovery: linked across all detected roots
+- open-knowledge-write-skill: linked across all detected roots
+- openai-docs: linked across all detected roots
+- opentelemetry: linked across all detected roots
+- optimize: linked across all detected roots
+- organization-best-practices: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- origin: linked across all detected roots
+- orpc-v2: linked across all detected roots
+- overdrive: linked across all detected roots
+- partial-prefetching: linked across all detected roots
+- paseo: linked across all detected roots
+- paseo-advisor: linked across all detected roots
+- paseo-committee: linked across all detected roots
+- paseo-handoff: linked across all detected roots
+- paseo-help: linked across all detected roots
+- paseo-plugin: linked across all detected roots
+- passlet: linked across all detected roots
+- payment-integration: linked across all detected roots
+- pdf: linked across all detected roots
+- performance: linked across all detected roots
+- performance-optimization: linked across all detected roots
+- pick-ui-library: linked across all detected roots
+- plan: BLOCKED — different whole-folder contents: agents, claude, agent
+- planning-user-interviews: linked across all detected roots
+- playwright: linked across all detected roots
+- playwright-interactive: linked across all detected roots
+- plugin-bundle-size: linked across all detected roots
+- polish: linked across all detected roots
+- posthog-debugger: linked across all detected roots
+- posthog-inbound-leads: linked across all detected roots
+- posthog-onboarding: linked across all detected roots
+- posthog-onboarding-lead-research: linked across all detected roots
+- posthog-pls-big-fish: linked across all detected roots
+- posthog-pls-transition-leads: linked across all detected roots
+- posthog-survey-creator: linked across all detected roots
+- poteto-help: linked across all detected roots
+- poteto-mode: BLOCKED — different whole-folder contents: antigravity, opencode
+- pptx: linked across all detected roots
+- principle-attack-the-premise: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-boundary-discipline: linked across all detected roots
+- principle-build-the-lever: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-encode-lessons-in-structure: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-exhaust-the-design-space: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-experience-first: linked across all detected roots
+- principle-explain-the-number: linked across all detected roots
+- principle-fix-root-causes: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-foundational-thinking: linked across all detected roots
+- principle-guard-the-context-window: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-laziness-protocol: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-make-operations-idempotent: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-migrate-callers-then-delete-legacy-apis: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-minimize-reader-load: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-model-the-domain: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-never-block-on-the-human: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-outcome-oriented-execution: linked across all detected roots
+- principle-prove-it-works: linked across all detected roots
+- principle-redesign-from-first-principles: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-separate-before-serializing-shared-state: linked across all detected roots
+- principle-sequence-verifiable-units: linked across all detected roots
+- principle-subtract-before-you-add: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-test-behavior-not-implementation: BLOCKED — different whole-folder contents: antigravity, opencode
+- principle-type-system-discipline: BLOCKED — different whole-folder contents: antigravity, opencode
+- prisma-database-setup: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- private-connectivity: linked across all detected roots
+- product-thinking: linked across all detected roots
+- production-ui-components: linked across all detected roots
+- prometheus: linked across all detected roots
+- prometheus-cardinality-troubleshooter: linked across all detected roots
+- prometheus-label-strategy: linked across all detected roots
+- promql: linked across all detected roots
+- prototype: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- pyroscope: linked across all detected roots
+- quality-code: linked across all detected roots
+- querying-posthog-data: linked across all detected roots
+- quieter: linked across all detected roots
+- ralph: linked across all detected roots
+- ralplan: linked across all detected roots
+- rde-eval: linked across all detected roots
+- react-19-plugin-migration: linked across all detected roots
+- react-components-apis: linked across all detected roots
+- react-doctor: linked across all detected roots
+- react-email: linked across all detected roots
+- react-hooks-placement: linked across all detected roots
+- react-native-ease-refactor: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- react-native-screen-transitions: linked across all detected roots
+- react-native-worktree: linked across all detected roots
+- recall: BLOCKED — different whole-folder contents: antigravity, opencode
+- reconciler-logic: linked across all detected roots
+- reflect: BLOCKED — different whole-folder contents: antigravity, opencode
+- rename-chat: linked across all detected roots
+- render-deploy: BLOCKED — different whole-folder contents: agents, claude, agent
+- research: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: hermes; broken link or occupied non-skill: opencode-home
+- resend: linked across all detected roots
+- resend-cli: linked across all detected roots
+- resolving-merge-conflicts: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- revealjs-presenter: linked across all detected roots
+- review: linked across all detected roots
+- review-animations: linked across all detected roots
+- review-bugbot: linked across all detected roots
+- review-security: linked across all detected roots
+- rule-research: linked across all detected roots
+- rule-validate: linked across all detected roots
+- rule-writing: linked across all detected roots
+- run-parity: linked across all detected roots
+- scaffold-exercises: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- screenshot: linked across all detected roots
+- sdk: linked across all detected roots
+- security-audit: BLOCKED — different whole-folder contents: agents, gemini
+- security-best-practices: linked across all detected roots
+- security-ownership-map: linked across all detected roots
+- security-review: linked across all detected roots
+- security-threat-model: linked across all detected roots
+- send-data: linked across all detected roots
+- sentry: linked across all detected roots
+- sentry-cli: linked across all detected roots
+- sentry-nextjs-sdk: linked across all detected roots
+- seo-audit: linked across all detected roots
+- setting-up-a-data-warehouse-source: linked across all detected roots
+- setup-matt-pocock-skills: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- setup-pre-commit: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- setup-pstack: linked across all detected roots
+- setup-ts-deep-modules: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- shadcn: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- share: linked across all detected roots
+- sharpen: linked across all detected roots
+- shell: linked across all detected roots
+- ship: linked across all detected roots
+- shipswift: linked across all detected roots
+- show-me-your-work: BLOCKED — different whole-folder contents: antigravity, opencode
+- signals: linked across all detected roots
+- signals-scout-ai-observability: linked across all detected roots
+- signals-scout-anomaly-detection: linked across all detected roots
+- signals-scout-csp-violations: linked across all detected roots
+- signals-scout-data-pipelines: linked across all detected roots
+- signals-scout-error-tracking: linked across all detected roots
+- signals-scout-experiments: linked across all detected roots
+- signals-scout-feature-flags: linked across all detected roots
+- signals-scout-general: linked across all detected roots
+- signals-scout-health-checks: linked across all detected roots
+- signals-scout-inbox-validation: linked across all detected roots
+- signals-scout-logs: linked across all detected roots
+- signals-scout-observability-gaps: linked across all detected roots
+- signals-scout-replay-vision: linked across all detected roots
+- signals-scout-revenue-analytics: linked across all detected roots
+- signals-scout-session-replay: linked across all detected roots
+- signals-scout-surveys: linked across all detected roots
+- signals-scout-web-analytics: linked across all detected roots
+- skill: linked across all detected roots
+- skill-authoring: linked across all detected roots
+- skill-doctor: linked across all detected roots
+- skills-store: linked across all detected roots
+- slides: linked across all detected roots
+- slimming-simulators: linked across all detected roots
+- sora: linked across all detected roots
+- source-command-deslop: linked across all detected roots
+- source-command-fix-merge-conflicts: linked across all detected roots
+- source-command-git-commit: linked across all detected roots
+- source-command-ui-skills: linked across all detected roots
+- speech: linked across all detected roots
+- split-to-prs: linked across all detected roots
+- spreadsheet: linked across all detected roots
+- statusline: linked across all detected roots
+- suggesting-data-imports: linked across all detected roots
+- superset-10x: linked across all detected roots
+- superset-automate: linked across all detected roots
+- superset-browser: linked across all detected roots
+- superset-computer: linked across all detected roots
+- superset-contribute: linked across all detected roots
+- superset-doctor: linked across all detected roots
+- superset-environment: linked across all detected roots
+- superset-feedback: linked across all detected roots
+- superset-integrations: linked across all detected roots
+- superset-orchestrate: linked across all detected roots
+- superset-page: linked across all detected roots
+- superset-panes: linked across all detected roots
+- superset-plugins: linked across all detected roots
+- superset-setup: linked across all detected roots
+- superset-standup: linked across all detected roots
+- suppressing-noisy-errors: linked across all detected roots
+- swarm: BLOCKED — different whole-folder contents: antigravity, opencode
+- swiftui-expert-skill: linked across all detected roots
+- swiftui-pro: linked across all detected roots
+- synthetic-monitoring-checks: linked across all detected roots
+- tailwind-design-system: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- tanstack-form: linked across all detected roots
+- tanstack-hotkeys: linked across all detected roots
+- tanstack-query-best-practices: linked across all detected roots
+- tdd: BLOCKED — different whole-folder contents: agents, antigravity; broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- teach: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, codebuddy, zcode
+- teach-impeccable: linked across all detected roots
+- teach-imported: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- team: BLOCKED — different whole-folder contents: agents, claude, agent
+- technical-writing: BLOCKED — different whole-folder contents: antigravity, opencode
+- tempo: linked across all detected roots
+- testing: linked across all detected roots
+- testing-and-verification: linked across all detected roots
+- theme: linked across all detected roots
+- theming: linked across all detected roots
+- think-like-poteto: linked across all detected roots
+- threejs-animation: linked across all detected roots
+- tldraw-offline: linked across all detected roots
+- to-questionnaire: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- to-spec: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- to-tickets: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- tooling-and-dependencies: linked across all detected roots
+- trace: linked across all detected roots
+- transcribe: linked across all detected roots
+- transitions-dev: linked across all detected roots
+- transitions-polish: linked across all detected roots
+- trees: linked across all detected roots
+- triage: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- triaging-error-issues: linked across all detected roots
+- triaging-visual-review-runs: linked across all detected roots
+- tuning-incremental-sync-config: linked across all detected roots
+- turborepo: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- two-factor-authentication-best-practices: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- typescript-advanced-types: linked across all detected roots
+- typescript-best-practices: BLOCKED — different whole-folder contents: antigravity, opencode
+- typescript-monorepo: linked across all detected roots
+- typeset: linked across all detected roots
+- ui-skills: linked across all detected roots
+- ui-ux-pro-max: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- ultrawork: linked across all detected roots
+- uniwind: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- unslop: BLOCKED — different whole-folder contents: antigravity, opencode
+- update-cli-config: linked across all detected roots
+- update-cursor-settings: linked across all detected roots
+- upgrading-expo: linked across all detected roots
+- upstash: linked across all detected roots
+- use-dom: linked across all detected roots
+- user-deep-dive: linked across all detected roots
+- valibot: linked across all detected roots
+- variant: linked across all detected roots
+- vercel-deploy: linked across all detected roots
+- vercel-doctor: BLOCKED — different whole-folder contents: agents, claude, codex, gemini, antigravity, opencode, amp
+- vercel-react-best-practices: BLOCKED — different whole-folder contents: agents, cursor, claude, gemini, antigravity, copilot, opencode, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode, opencode-legacy
+- vercel-react-native-skills: linked across all detected roots
+- vercel-react-view-transitions: BLOCKED — different whole-folder contents: agents, claude, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- visual-verdict: linked across all detected roots
+- visualize: linked across all detected roots
+- wait-what: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- wayfinder: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- web-clone: BLOCKED — different whole-folder contents: agents, claude, pi, agent
+- web-design-guidelines: BLOCKED — different whole-folder contents: agents, cursor, claude, gemini, antigravity, copilot, opencode, agent, opencode-legacy
+- webauthx: BLOCKED — different whole-folder contents: agents, claude, antigravity, factory, hermes, grok, kilo, qwen, kiro, pi, goose, trae-cn, codemaker, trae, codestudio, roo, zencoder, codeartsdoer, commandcode, agent, codebuddy, zcode
+- why: BLOCKED — different whole-folder contents: antigravity, opencode
+- wizard: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- worker: BLOCKED — different whole-folder contents: agents, claude, agent
+- working-with-skills: linked across all detected roots
+- workload-analysis: linked across all detected roots
+- worktrees-and-dev-servers: linked across all detected roots
+- writing-beats: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- writing-for-agents: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- writing-fragments: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- writing-guidelines: linked across all detected roots
+- writing-shape: BLOCKED — broken link or occupied non-skill: codex; broken link or occupied non-skill: opencode-home
+- xlsx: linked across all detected roots
+- yeet: linked across all detected roots
+
+## Existing broken links (not modified)
+- /Users/macbook/.codex/skills/ask-matt
+- /Users/macbook/.codex/skills/code-review-imported
+- /Users/macbook/.codex/skills/codebase-design
+- /Users/macbook/.codex/skills/diagnosing-bugs
+- /Users/macbook/.codex/skills/domain-modeling
+- /Users/macbook/.codex/skills/grill-me
+- /Users/macbook/.codex/skills/grill-with-docs
+- /Users/macbook/.codex/skills/grilling-imported
+- /Users/macbook/.codex/skills/handoff
+- /Users/macbook/.codex/skills/implement
+- /Users/macbook/.codex/skills/improve-codebase-architecture-imported
+- /Users/macbook/.codex/skills/loop-me
+- /Users/macbook/.codex/skills/migrate-to-shoehorn
+- /Users/macbook/.codex/skills/prototype
+- /Users/macbook/.codex/skills/research
+- /Users/macbook/.codex/skills/resolving-merge-conflicts
+- /Users/macbook/.codex/skills/scaffold-exercises
+- /Users/macbook/.codex/skills/setup-matt-pocock-skills
+- /Users/macbook/.codex/skills/setup-pre-commit
+- /Users/macbook/.codex/skills/setup-ts-deep-modules
+- /Users/macbook/.codex/skills/tdd
+- /Users/macbook/.codex/skills/teach-imported
+- /Users/macbook/.codex/skills/to-questionnaire
+- /Users/macbook/.codex/skills/to-spec
+- /Users/macbook/.codex/skills/to-tickets
+- /Users/macbook/.codex/skills/triage
+- /Users/macbook/.codex/skills/wait-what
+- /Users/macbook/.codex/skills/wayfinder
+- /Users/macbook/.codex/skills/wizard
+- /Users/macbook/.codex/skills/writing-beats
+- /Users/macbook/.codex/skills/writing-for-agents
+- /Users/macbook/.codex/skills/writing-fragments
+- /Users/macbook/.codex/skills/writing-shape
+- /Users/macbook/.opencode/skills/ask-matt
+- /Users/macbook/.opencode/skills/code-review-imported
+- /Users/macbook/.opencode/skills/codebase-design
+- /Users/macbook/.opencode/skills/diagnosing-bugs
+- /Users/macbook/.opencode/skills/domain-modeling
+- /Users/macbook/.opencode/skills/grill-me
+- /Users/macbook/.opencode/skills/grill-with-docs
+- /Users/macbook/.opencode/skills/grilling-imported
+- /Users/macbook/.opencode/skills/handoff
+- /Users/macbook/.opencode/skills/implement
+- /Users/macbook/.opencode/skills/improve-codebase-architecture-imported
+- /Users/macbook/.opencode/skills/loop-me
+- /Users/macbook/.opencode/skills/migrate-to-shoehorn
+- /Users/macbook/.opencode/skills/prototype
+- /Users/macbook/.opencode/skills/research
+- /Users/macbook/.opencode/skills/resolving-merge-conflicts
+- /Users/macbook/.opencode/skills/scaffold-exercises
+- /Users/macbook/.opencode/skills/setup-matt-pocock-skills
+- /Users/macbook/.opencode/skills/setup-pre-commit
+- /Users/macbook/.opencode/skills/setup-ts-deep-modules
+- /Users/macbook/.opencode/skills/tdd
+- /Users/macbook/.opencode/skills/teach-imported
+- /Users/macbook/.opencode/skills/to-questionnaire
+- /Users/macbook/.opencode/skills/to-spec
+- /Users/macbook/.opencode/skills/to-tickets
+- /Users/macbook/.opencode/skills/triage
+- /Users/macbook/.opencode/skills/wait-what
+- /Users/macbook/.opencode/skills/wayfinder
+- /Users/macbook/.opencode/skills/wizard
+- /Users/macbook/.opencode/skills/writing-beats
+- /Users/macbook/.opencode/skills/writing-for-agents
+- /Users/macbook/.opencode/skills/writing-fragments
+- /Users/macbook/.opencode/skills/writing-shape
+
+## Scope notes
+The separate Developer/skills/agent-skills library and existing project-local skills were discovered but are not personal global sources, so were not imported or edited.
+No fidel files, project rules, commits, pushes, remotes, or Metro processes were changed.
+No Mac-to-Grok-Bot sync: Grok Bot skills live on a different computer.
+File presence and whole-folder links are verified; harness-specific frontmatter/tool compatibility and live agent reload were not tested.

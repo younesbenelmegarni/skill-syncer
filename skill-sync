@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# Dev checkout launcher: release binary only (build with cargo build --release).
+set -e
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+NATIVE="$ROOT/target/release/skill-sync"
+if [ ! -x "$NATIVE" ]; then
+  echo "skill-sync: no release binary at $NATIVE" >&2
+  echo "Run: cargo build --release" >&2
+  exit 1
+fi
+exec "$NATIVE" "$@"
