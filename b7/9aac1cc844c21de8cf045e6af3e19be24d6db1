@@ -1,0 +1,27 @@
+benchmarks/results/20261109-python-baseline.json
+  s_bd16ec299bf00c::t_f90c86e304cd75 1-25
+benchmarks/results/compare-20261109.json
+  s_bd16ec299bf00c::t_6f9a411cca536b 1-26
+crates/skill_sync_core/src/fingerprint.rs
+  s_bd16ec299bf00c::t_c33df55b8aba37 1-187
+tests/golden/digests.json
+  s_bd16ec299bf00c::t_f1079539363ec6 1-3
+tests/golden/plan-dry-run.json
+  s_bd16ec299bf00c::t_725036a9dcca34 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b79aac1cc844c21de8cf045e6af3e19be24d6db1",
+  "prompts": {},
+  "sessions": {
+    "s_bd16ec299bf00c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b002135e-cb37-474e-8613-ddf21f4edd49",
+        "model": "composer-2.5"
+      },
+      "human_author": "younesbenelmegarni <younes.benelmegarnii@gmail.com>"
+    }
+  }
+}
