@@ -124,7 +124,9 @@ fn should_skip(
   if path == canonical {
     return true;
   }
-  if path.starts_with(canonical) {
+  if path.canonicalize().unwrap_or_else(|_| path.to_owned()).starts_with(
+    canonical.canonicalize().unwrap_or_else(|_| canonical.to_owned()),
+  ) {
     return true;
   }
   if path_has_managed_part(path) {

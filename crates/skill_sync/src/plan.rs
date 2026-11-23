@@ -32,6 +32,17 @@ fn present(path: &Path) -> bool {
   path.symlink_metadata().is_ok()
 }
 
+fn is_hermes_category(name: &str, target: &Path) -> bool {
+  name == "hermes"
+    && target.is_dir()
+    && !target.is_symlink()
+    && !target.join("SKILL.md").exists()
+    && target.join("DESCRIPTION.md").is_file()
+    && fs::read_dir(target).is_ok_and(|entries| {
+      entries.flatten().any(|entry| entry.path().join("SKILL.md").is_file())
+    })
+}
+
 pub fn managed(root: &Path) -> Result<HashSet<String>> {
   let mut names = HashSet::new();
   if !root.is_dir() {
@@ -447,6 +458,10 @@ pub fn plan(
     }
     for (name, root) in roots {
       let target = root.join(slug);
+      if is_hermes_category(name, &target) {
+        skipped.push(target.display().to_string());
+        continue;
+      }
       if destination_protected(
         &target,
         blocked.get(name).unwrap_or(&HashSet::new()),
@@ -513,6 +528,9 @@ pub fn plan(
       }
       visited.insert(physical.clone());
       let target = root.join(slug);
+      if is_hermes_category(name, &target) {
+        continue;
+      }
       if plugin
         && destination_protected(&target, blocked.get(name).unwrap_or(&HashSet::new()), true)?
       {
